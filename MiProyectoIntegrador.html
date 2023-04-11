@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name= "keywords"  content="Desarrollo web">
+    <title>Mi portafolio</title>
+    <link rel='stylesheet' type='text/css'  href='style.css'>  
+    <link rel="icon" href="sv.png" type="image/gif" sizes="16x16">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>          
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--<script type="text/javascript">
+     var textoHolaMundo = document.createElement("Hola Mundo");
+     document.body.appendChild(textoHolaMundo);
+    </script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>-->
+ 
+</head>
+
+<body  onload="interval()">
+  
+    <header class="fondo" style="height: 5%;" ></header> 
+
+      <nav id="navbar-example2"  class="navbar bg-body-tertiary px-3 mb-3 fondo  alineacion">
+      <a class="navbar-brand fondo" href="#"><img id="logotipo" src="sv.png" width="100%" height="150px" ></a>
+      <ul class="nav nav-pills fondo">
+
+      <li class="nav-item fondo">
+      <a class="nav-link fondo" href="#scrollspyHeading1">Inicio</a>
+      </li>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="#scrollspyHeading2">Servicios</a>
+          </li>
+
+          <li class="nav-item dropdown fondo">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Más Información</a>
+            <ul class="dropdown-menu fondo">
+              <li><a class="dropdown-item " href="#scrollspyHeading3">Sobre mí</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4"> Video Presentación</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <div id="navbar-example2" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="fondo scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1"></h4>
+        
+        <section class="caja alineacion" >
+          <img src="./image/1.jpg" width="100%" height="800px" id="slide">
+          <div style="align-items:center;height: 100vh;" class="container" >  
+             <h1 class="texto">Creando mi portafolio </h1>
+             <h2 class="">Con HTML,CSS y JavaScript</h2>
+          <button type="button"  class="btn btn-secondary btn-lg mt-4 degradado btn-style"><a class="textoboton1" href="https://wa.pe/Jupiter" target="_blank" rel="nofollow">Contactarse conmigo</a></button>
+          </div>
+          </section>
+
+          <section class="containerServicios">
+        <h2 id="scrollspyHeading2"class="text-center mt-5 mb-5 ">
+          Mis servicios</h2>
+       
+            
+          <div class="container text-center ">
+              <div class="row align-items-start">
+                <div class="col bloqueServicio">
+                <h3 class="textoAzul tituloProyecto">HTML</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, recusandae fugiat rem labore nihil sint dolore a dolorem voluptas accusamus? Dolores voluptatem itaque repellendus quasi, ipsa cum vero?</p>
+                
+                <div class="card" style="align-items:center;height: 100vh;">
+                  <img src="html.png" class="card-img-top" width="100%" height="425px" alt="...">
+                  <div class="card-body fondo ">
+                    <h5 class="card-title ">Mis Proyectos</h5>
+                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                  </div>
+              
+                </div>
+                
+                <div class="col  bloqueServicio">
+                  <h3 class="textoAzul tituloProyecto">CSS</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, recusandae fugiat rem labore nihil sint dolore a dolorem voluptas accusamus? Dolores voluptatem itaque repellendus quasi, ipsa cum vero?</p>
+                    <div class="card" style="align-items:center;height: 100vh;">
+                    <img src="css.jpg" class="card-img-top"  width="100%" height="425px" alt="...">
+                    <div class="card-body fondo ">
+                      <h5 class="card-title ">Mis Proyectos</h5>
+                      <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                    </div>
+                  
+                <div class="col  bloqueServicio">
+                  <h3 class="textoAzul tituloProyecto">JavaScript</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, recusandae fugiat rem labore nihil sint dolore a dolorem voluptas accusamus? Dolores voluptatem itaque repellendus quasi, ipsa cum vero?</p>
+                 
+                  <div class="card" style=" align-items:center;height: 100vh;">
+                    <img src="java.jpg" class="card-img-top" width="100%" height="425px" alt="...">
+                    <div class="card-body fondo ">
+                      <h5 class="card-title ">Mis Proyectos</h5>
+                      <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                   </div>
+
+              </div>
+            </div>
+          </section>
+
+
+        <h2 id="scrollspyHeading3" class="text-center mt-5 mb-5 textoAzul" ></h2>
+        
+
+        <div class=" backgroundSobreMi">
+        <div class="containerBotonSobremi"> 
+         <button class="btn btn-primary mt-5 mb-5 styleBotonSobreMi" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Sobre mi</button>
+        </div>
+         <section class="p-3 pb-1">
+
+          <div class="accordion " id="accordionExample">
+            <div class="accordion-item fondo">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fondo textoAzul" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body fondo">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item fondo textoAzul">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fondo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body fondo">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>           
+          </div>
+        </section>
+        </div>
+        
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Sobre mi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-center">
+        <aside>
+          <h2 class="textoAzul"> Sebastian Villegas Munera</h2>
+          <img src="jupiter(2).jpg" width="100%" >
+          
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt enim maiores aperiam et eos soluta quasi ab dolor ipsum veniam, perspiciatis delectus molestias beatae deserunt consequuntur modi, nam, vero odit.</p>
+        </aside>
+          <section>
+      <article>
+        <a href="#"> <h1><button type="button" class="btn btn-warning text-center">SUSCRIBETE</button></h1></a>
+    </article>
+    </section>
+    </div>
+    </div>
+    
+
+        <h2 id="scrollspyHeading4" class="text-center mt-5 mb-5 textoAzul">Video Presentación</h2>
+        <div class="text-center">
+          <iframe src="https://www.youtube.com/embed/ih2JrTCzTFk" width="560" height="315"></iframe>
+          
+          
+        </div>
+            <div class="text-center">
+             <p >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti est perferendis nobis voluptas facere veniam labore laborum odio! Illum laboriosam, minus quia dolorum impedit quae consectetur nesciunt saepe sint beatae.
+                <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quis, eum quidem magnam saepe incidunt, debitis, qui nobis possimus laboriosam blanditiis eos dolore ut quas consequuntur deserunt repellendus vitae natus!</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, repudiandae nobis sint quaerat corrupti, quod quisquam iusto maxime esse explicabo eos placeat eligendi id illum officia quibusdam. Similique, laborum soluta.
+             </p>
+             </div>
+
+        <h2 id="scrollspyHeading5" class="text-center mt-5 mb-5 textoAzul" ></h2>
+        
+        <div class="container text-center" style="margin-top: 150px; margin-bottom: 150px;">
+        <div class="row align-items-start">
+          <section>
+           <h1>Comunicate Conmigo</h1>
+           <div class="redesSociales">
+            <i class="bi bi-github" style="font-size: 40px;"> </i>
+            <i class="bi bi-whatsapp" style="font-size: 40px;"> </i>
+            <i class="bi bi-linkedin" style="font-size: 40px;"> </i>
+    
+          </div>
+       <form method="post" name="formularioDeInscripción">
+         <div class="row">
+         <div class="col">
+          <label class="form-label"  for="nombre">Nombres: </label>
+          <input class="form-control" id="nombre" name="nombre" type="text" placeholder="Nombres *"/>
+        </div>
+          <div class="col">      
+       <label class="form-label" for="apellido">Apellidos: </label>
+       <input  class="form-control" id="apellido" name="apellido" type="text" placeholder="Apellidos *"/>
+      </div> 
+      <div class="col">
+       <label class="form-label" for="email">Email: </label>
+       <input class="form-control" id="email" name="email" type="text" placeholder="Correo Electronico *"/>
+      </div>
+       <div class="col">
+       <label class="form-label" for="celular">Celular: </label>
+      <input class="form-control" id="celular" name="celular" type="text" placeholder="Número celular con indicativo *"/>
+    </div>
+    </div>
+</div>
+        <div class="containerBotonSobremi"> 
+      <input  class="btn btn-primary  styleBotonSobreMi " name="Submit" type="submit" value="Enviar"/>
+    </div>
+       </form>
+      </section>
+    
+   </div>
+   
+  
+
+    
+     <footer class="fondo p-5 pb-2 ">
+        <div class="container fondo">
+            <div class="row align-items-start">
+              <div class="col">
+              <h3 class="textoAzul text-center">Menu</h3>
+              <ul class="nav flex-column text-center">
+                <li class="nav-item"><a  href="#" class="nav-link">Sobre mí</a></li>
+                <li class="nav-item"><a  href="#" class="nav-link">Contactame</a></li>
+               <li class="nav-item"> <a href="#" class="nav-link">Mi Curriculum</a></li>
+              </ul>
+              
+              </div>
+              <div class="col">
+                <a href="#" class="nav-link"> <h3 class="textoAzul text-center">Contactame</h3> </a>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium neque, recusandae fugiat rem labore nihil sint dolore a dolorem voluptas accusamus? Dolores voluptatem itaque repellendus quasi, ipsa cum vero?</p>
+              <div class="redesSociales">
+                <i class="bi bi-github" style="font-size: 40px;"> </i>
+                <i class="bi bi-whatsapp" style="font-size: 40px;"> </i>
+                <i class="bi bi-linkedin" style="font-size: 40px;"> </i>
+
+              </div>
+              </div>
+              <div class="col">
+                <h3 class="textoAzul text-center">Ubicados</h3>
+                <iframe class="container" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2804.2916542211!2d-75.60432315388181!3d6.281171696475272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1678861871475!5m2!1ses-419!2sco" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              </div>
+            </div>
+          </div>
+        <table width="100%" class="text-center mt-3">
+             <tr> <td></td> <td>Pagina hecha en colombia </td> <td></td>
+
+             </tr>
+
+        </table>
+        
+        
+     </footer>
+</body>
+<script src="JavaScript.js"></script>
+</html>
+
+
